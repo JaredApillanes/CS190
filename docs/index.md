@@ -19,3 +19,6 @@ This project aimed to map synthesizer controls an XBox controller. Vibrato, trem
 This project implements an old idea from another course. It explores randomness by generating random intervals and pitches and interpolates from the current position across a given scale. Improving the musicality of the tempo and rhythm selection would be an interesting path to explore in the future.
 
 [\[CMAP Dive\]](https://drive.google.com/drive/folders/1q9tjRlJzXg0iNWMDl52Fg8XzE5fQBLkJ) [\[GitHub\]](https://github.com/JaredApillanes/CS190/tree/main/projects/4/)
+
+## Final - Markov Midi
+[\[Proposal\]](https://github.com/JaredApillanes/CS190/blob/main/projects/final/project_proposal.pdf)
