@@ -22,4 +22,7 @@ This project implements an old idea from another course. It explores randomness 
 
 ## Final - Markov Midi
 [\[Proposal\]](https://github.com/JaredApillanes/CS190/blob/main/projects/final/project_proposal.pdf)
+
 [\[Update\]](https://github.com/JaredApillanes/CS190/blob/main/projects/final/progress_report.pdf)
+
+[\[Code\]](https://github.com/JaredApillanes/CS190/blob/main/projects/final/code)
