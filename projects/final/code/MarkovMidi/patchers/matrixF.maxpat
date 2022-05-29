@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 42.295433521270752, 303.0, 368.0, 33.0 ],
+					"text" : "matrixF - provides a wrapper for matrixVector; a stable jit.matrixset such that resizing will not erase data"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "matrix",
 					"id" : "obj-41",
 					"index" : 1,
@@ -58,7 +70,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "list" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.136343002319336, 13.351988077163696, 30.0, 30.0 ]
 				}
 
@@ -96,7 +108,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 265.294095039367676, 13.351988077163696, 30.0, 30.0 ]
 				}
 

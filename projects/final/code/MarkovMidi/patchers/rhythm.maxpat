@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 226.0, 44.0, 150.0, 47.0 ],
+					"text" : "rhythm - a simple pitch-dependent table lookup of durations"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "readMessage",
 					"id" : "obj-3",
 					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 164.75, 11.0, 30.0, 30.0 ]
 				}
 
