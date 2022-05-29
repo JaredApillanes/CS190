@@ -147,6 +147,10 @@ def _markov_loop(mid, track_num, start_index, start_tick, end, file_in):
 
 
 if __name__ == '__main__':
-    measure_ends = [1]
-    beats_per_measure = 4
-    markov_midi(input(), [beats_per_measure * m for m in measure_ends])
+    # measure_ends = [1, 14]
+    # beats_per_measure = 4
+    # markov_midi("gerudo.mid", [beats_per_measure * m for m in measure_ends])
+    markov_midi(input("Input File:\n"))
+
+
+
