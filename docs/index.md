@@ -26,3 +26,5 @@ This project implements an old idea from another course. It explores randomness 
 [\[Update\]](https://github.com/JaredApillanes/CS190/blob/main/projects/final/progress_report.pdf)
 
 [\[Code\]](https://github.com/JaredApillanes/CS190/blob/main/projects/final/code)
+
+[\[Manual\]](https://github.com/JaredApillanes/CS190/blob/main/projects/final/Manual.pdf)
