@@ -134,14 +134,17 @@ def _markov_loop(mid, track_num, start_index, start_tick, end, file_in):
                             last_pitches = current_pitches
                             current_pitches = [msg.note]
         start_index += 1
+        if start_index >= len(track):
+            toBreak = True
         if toBreak:
             pitches[current_pitches[0], first_note] += 1
             break
 
     name, data = (track.name + f"_{start_tick}", {"pitch": pitches, "chord_notes": chord_data, "chord_size": chord_size,
                                                   "rhythm": rhythm})
+    name = ''.join(filter(str.isalnum, name.replace(' ', '_')))
     for suffix, matrix in data.items():
-        write_jxf(f"{file_in.replace('.mid', '').replace(' ', '_')}_{name.replace(' ', '_')}_{suffix}.jxf", matrix)
+        write_jxf(f"{file_in.replace('.mid', '').replace(' ', '_')}_{name}_{suffix}.jxf", matrix)
 
     return start_index, start_tick
 
@@ -151,6 +154,3 @@ if __name__ == '__main__':
     # beats_per_measure = 4
     # markov_midi("gerudo.mid", [beats_per_measure * m for m in measure_ends])
     markov_midi(input("Input File:\n"))
-
-
-
