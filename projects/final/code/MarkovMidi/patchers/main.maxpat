@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 478.690392971038818, 491.95461094379425, 81.199833512306213, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Record & Export Midi"
 				}
 
@@ -601,7 +600,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 79.698414325714111, 38.03514838218689, 1213.0, 68.0 ],
 					"segmented" : 1,
-					"tabs" : [ "Read" ]
+					"tabs" : [ "Read", "love_pitch.jxf" ]
 				}
 
 			}
@@ -963,7 +962,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-136", 0 ],
-					"midpoints" : [ 74.990559458732605, 582.056608378887177, 171.490559458732605, 582.056608378887177 ],
+					"midpoints" : [ 74.990559458732605, 554.156053215265274, 171.490559458732605, 554.156053215265274 ],
 					"source" : [ "obj-102", 2 ]
 				}
 
